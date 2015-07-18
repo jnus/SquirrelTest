@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WpfFuture</id>
+    <version>1.0.0.0</version>
+    <title>WpfFuture</title>
+    <authors>Jasper Nygaard</authors>
+    <owners>Jasper Nygaard</owners>
+    <projectUrl>https://github.com/jnus</projectUrl>
+    <description>Trying out Squirrel</description>
+  </metadata>
+  <files>
+        <file src="bin\release\*.*" target="lib\net45" />
+  </files>
+</package>
