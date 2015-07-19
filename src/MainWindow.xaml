@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfFuture"
         mc:Ignorable="d"
-        Title="MainWindow" Height="700" Width="1000">
+        Title="MainWindow2" Height="700" Width="1000">
     <Grid>
         <WebBrowser Source="http://blogs.msdn.com/b/wpf/"/>
 
