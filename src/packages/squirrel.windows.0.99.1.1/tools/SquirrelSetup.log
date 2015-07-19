@@ -1,8 +1,0 @@
-﻿2015-07-19 13:24:49> Program: Starting Squirrel Updater: --releasify C:\Users\jmn\Documents\Visual Studio 2015\Projects\WpfFuture\tmp\WpfFuture.0.0.0.0.nupkg
-2015-07-19 13:24:49> Program: Bootstrapper EXE found at:C:\Users\jmn\Documents\Visual Studio 2015\Projects\WpfFuture\src\packages\squirrel.windows.0.99.1.1\tools\Setup.exe
-2015-07-19 13:24:49> Program: Creating release package: C:\Users\jmn\Documents\Visual Studio 2015\Projects\WpfFuture\Releases\WpfFuture.0.0.0.0.nupkg
-2015-07-19 13:24:49> ReleasePackage: Creating release package: C:\Users\jmn\Documents\Visual Studio 2015\Projects\WpfFuture\Releases\WpfFuture.0.0.0.0.nupkg => C:\Users\jmn\Documents\Visual Studio 2015\Projects\WpfFuture\Releases\WpfFuture-0.0.0.0-full.nupkg
-2015-07-19 13:24:49> ReleasePackage: Extracting dependent packages: []
-2015-07-19 13:24:49> ReleasePackage: Removing unnecessary data
-2015-07-19 13:24:49> ReleasePackage: No release notes found in C:\Users\jmn\AppData\Local\SquirrelTemp\tempa\WpfFuture.nuspec
-2015-07-19 13:24:49> Program: Building embedded zip file for Setup.exe
