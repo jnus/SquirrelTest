@@ -8,11 +8,11 @@ $Here = Split-Path $MyInvocation.MyCommand.Definition
 $env:EnableNuGetPackageRestore = 'false'
 $NuGetExe = 'NuGet.exe'
 
-#if ((Test-Path $NuGetExe) -eq $false) {(New-Object System.Net.WebClient).DownloadFile('http://nuget.org/nuget.exe', $NuGetExe)}
+if ((Test-Path $NuGetExe) -eq $false) {(New-Object System.Net.WebClient).DownloadFile('http://nuget.org/nuget.exe', $NuGetExe)}
 
-#& $NuGetExe install squirrel.windows -OutputDirectory src\packages
-#& $NuGetExe install psake -OutputDirectory src\packages -Version 4.2.0.1
-#& $NuGetExe restore src\WpfFuture.sln
+& $NuGetExe install squirrel.windows -OutputDirectory src\packages
+& $NuGetExe install psake -OutputDirectory src\packages -Version 4.2.0.1
+& $NuGetExe restore src\WpfFuture.sln
 
 if((Get-Module psake) -eq $null)
 {
